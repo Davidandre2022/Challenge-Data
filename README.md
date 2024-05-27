@@ -1,41 +1,24 @@
 # Challenge-Data
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple Jobs Scraper</title>
-</head>
-<body>
-    <h1>Apple Jobs Scraper</h1>
+Apple Jobs Scraper
+Este es un script en Python para extraer detalles de las ofertas de trabajo publicadas en el sitio web de empleos de Apple para México.
 
-    <h2>Descripción</h2>
-    <p>Este es un script en Python para extraer detalles de las ofertas de trabajo publicadas en el sitio web de empleos de Apple para México.</p>
+Descripción
+El script realiza dos tareas principales:
 
-    <h2>Requisitos</h2>
-    <ul>
-        <li>Python 3.x</li>
-        <li>Librerías Python: requests, beautifulsoup4, pydantic</li>
-    </ul>
+Obtener enlaces de ofertas de trabajo: Escanea las páginas de la bolsa de trabajo de Apple para México y extrae los enlaces de las ofertas de trabajo disponibles.
 
-    <h2>Uso</h2>
-    <ol>
-        <li>Clona este repositorio en tu máquina local:</li>
-        <code>git clone &lt;URL_del_repositorio&gt;</code>
-        <li>Instala las dependencias:</li>
-        <code>pip install -r requirements.txt</code>
-        <li>Ejecuta el script:</li>
-        <code>python apple_jobs_scraper.py</code>
-        <li>Los detalles de las ofertas de trabajo se guardarán en un archivo <code>apple_jobs.json</code>.</li>
-    </ol>
+Obtener detalles de cada oferta de trabajo: Visita cada enlace de oferta de trabajo, extrae los detalles como el título, la descripción, la fecha de publicación y las habilidades requeridas, entre otros, y los guarda en un archivo JSON.
 
-    <h2>Contribuciones</h2>
-    <p>¡Las contribuciones son bienvenidas! Si encuentras un error o tienes una mejora, no dudes en enviar un pull request.</p>
+Requisitos
+Python 3.x
+Librerías Python: requests, beautifulsoup4, pydantic
+Uso
+Clona este repositorio en tu máquina local:
+Instala las dependencias:
+Ejecuta el script:
+Los detalles de las ofertas de trabajo se guardarán en un archivo apple_jobs.json.
+Contribuciones
+¡Las contribuciones son bienvenidas! Si encuentras un error o tienes una mejora, no dudes en enviar un pull request.
 
-    <h2>Autor</h2>
-    <p>[Nombre del autor]</p>
-
-    <h2>Licencia</h2>
-    <p>Este proyecto está bajo la Licencia [tipo de licencia]. Consulta el archivo LICENSE para más detalles.</p>
-</body>
-</html>
+Autor
+....................................................................
